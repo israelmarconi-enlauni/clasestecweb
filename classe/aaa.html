@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Club de video">
+    <meta name="keywords" content="peliculas, videos, cine, series">
+    <meta property="og:title" content="Club de video">
+    <meta>
+    <title>Club de videos</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Club de videos</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a>/li>
+                <li><a href="#peliculas">Peliculas</a>/li>
+                <li><a href="#actores">Actores</a>/li>
+                <li><a href="#contacto">Contacto</a>/li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido al clube de videos</h2>
+            <p>Aqui encontraras las mejores peliculas</p>
+            <button>Ver peliculones</button>
+        </section>
+        <section id="peliculas">
+            <h2>Peliculas destacadas</h2>
+            <article itemscope itemtype="https://www.google.com">
+                <img src="imagenes/poster.jpg" alt="Poster de la pelicula spiderman brand new day">
+                <h3 itemprop="name">Spoderman</h3>
+                <p itemprop="descripcion">4ta peli del arañas</p>
+                <span itemprop="director">Director: Not Sam Reimi</span>
+                <span itemprop="publised">Año 2026</span>
+            </article>
+            <article>
+                <img src="imagenes/poster.jpg" alt="Poster de la pelicula spiderman brand new day">
+                <h3 itemprop="name">Spoderman</h3>
+                <p itemprop="descripcion">4ta peli del arañas</p>
+                <span itemprop="director">Director: Not Sam Reimi</span>
+                <span itemprop="publised">Año 2026</span>
+            </article>
+            <article>
+                <img src="imagenes/poster.jpg" alt="Poster de la pelicula spiderman brand new day">
+                <h3 itemprop="name">Spoderman</h3>
+                <p itemprop="descripcion">4ta peli del arañas</p>
+                <span itemprop="director">Director: Not Sam Reimi</span>
+                <span itemprop="publised">Año 2026</span>
+            </article>
+        </section id="testimonios">
+        <h2>Testimonios</h2>
+        <blockquote>
+            "When haces tus momos en html"
+            <cite>Juliann Farfan</cite>
+        </blockquote>
+        <blockquote>
+            "El futuro es hoy"
+            <cite>Carlos Mariño</cite>
+        </blockquote>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required minlength="3">
+                </div>
+                <div>
+                    <label for="email">email::</label>
+                    <input type="email" id="email" name="email" required minlength="3">
+                </div>
+                <div>
+                    <label for="mensaje">Nombre:</label>
+                    <textarea name="mensaje" id="mensaje" required minlength="15"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar mensaje">
+                </div>                
+            </form>
+        </section>
+    </main>
+</body>
+</html>
